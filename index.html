@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>special design</title>
+    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="normalze.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <!-- start settings box -->
+    <div class="setting-box">
+<div class="toggle-settings">
+    <i class="fa fa-gear"></i> 
+</div>
+        <div class="setting-continer">
+            <div class="option-box">
+                <h4>colors</h4>
+                <ul class="colors-list">
+                    <li class="active" data-color="yellow"></li>
+                    <li data-color="#e91e63"></li>
+                    <li data-color="blue"></li>
+                    <li data-color="green"></li>
+                    <li data-color="black"></li>
+                </ul>
+            </div>
+            <div class="option-box">
+            <h4>Random Background</h4>
+            <div class="random-background">
+            <span class="yes active" data-backgound="yes">yes</span>
+            <span class="no" data-background="no">no</span>
+        </div>
+            </div>
+            <div class="option-box">
+            <h4>show bullets</h4>
+            <div class="bullets-option">
+            <span class="yes active" data-display="show">show</span>
+            <span class="no" data-display="hide">hide</span>
+        </div>
+            </div>
+            <button class="reset-option">reset option</button>
+        </div>
+    </div>
+    <!-- end settings box -->
+    <!-- start  navbollets-->
+    <div class="nav-bullets">
+        <div class="bullet" data-section=".about-us">
+            <div class="tooltip">about</div>
+        </div>
+        <div class="bullet" data-section=".skills">
+            <div class="tooltip" >our skills</div>
+        </div>
+        <div class="bullet" data-section=".gallery">
+            <div class="tooltip">gallery</div>
+        </div>
+        <div class="bullet" data-section=".timeline">
+            <div class="tooltip" >timeline</div>
+        </div>
+        <div class="bullet" data-section=".features">
+            <div class="tooltip" >featuers</div>
+        </div>
+        <div class="bullet" data-section=".testimonials">
+            <div class="tooltip" >testimonials</div>
+        </div>
+    </div>
+    <!-- end  navbollets-->
+    <!-- start landing page -->
+    <div class="lading-page">
+        <div class="overlay">
+        </div>
+        <div class="container">
+            <div class="header-erea">
+                <div class="logo">
+                    <img src="ilistratour.png" alt="">
+                </div>
+            <div class="links-continer">
+                <ul class="links">
+                    <li><a href="#" class="active" data-section=".about-us">About    </a></li>
+                    <li><a href="#" data-section=".skills">skills   </a></li>
+                    <li><a href="#" data-section=".gallery">gallery</a></li>
+                    <li><a href="#" data-section=".timeline">timeline</a></li>
+                    <li><a href="#" data-section=".features">featuers </a></li>
+                    <li><a href="#" data-section=".testimonials">testimonials </a></li>
+                </ul>
+                <button class="toggle-menue">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            </div>
+        </div>
+        <div class="introduction">
+            <h1>I am <span>abdullah</span> khaled</h1>
+            <p> I am a front end Devolber Experienced   in HTML, CSS, and JavaScript </p>
+        </div>
+    </div>
+    <!-- end landing page -->
+    <!-- start about us -->
+    <div class="container">
+    <div class="about-us">
+            <div class="info-box">
+                <h2>About me </h2>
+                <p> Experienced in HTML, CSS, and JavaScript, with proficiency in Bootstrap and jQuery. Skilled in crafting responsive and visually appealing web interfaces. Capable of translating design concepts into functional and engaging user experiences. Eager to leverage my skills in front-end development to contribute to innovative and dynamic projects. Continuously learning and adapting to stay ahead in the rapidly evolving web development landscape.
+                </p>
+            </div>
+            <div class="imge-box">
+                <img src="me and.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- end about us -->
+    <!-- start our skils -->
+    <div class="skills">
+    <div class="container">
+        <h2>our skills</h2>
+        <div class="skill-box">
+            <div class="name">html</div>
+            <div class="skill-progress">
+                <span data-percentage="99%">99%</span>
+            </div>
+        </div>
+        <div class="skill-box">
+            <div class="name">css</div>
+            <div class="skill-progress">
+                <span data-percentage="95%">95%</span>
+            </div>
+        </div>
+        <div class="skill-box">
+            <div class="name">bootstrap</div>
+            <div class="skill-progress">
+                <span data-percentage="85%">85%</span>
+            </div>
+        </div>
+        <div class="skill-box">
+            <div class="name">javascript</div>
+            <div class="skill-progress">
+                <span  data-percentage="80%">80%</span>
+            </div>
+        </div>
+        <div class="skill-box">
+            <div class="name">jquery</div>
+            <div class="skill-progress">
+                <span data-percentage="85%">85%</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- end our skils -->
+    <!-- our gallery -->
+    <div class="gallery">
+        <div class="container">
+            <h2>our gallery</h2>
+            <div class="imges-box">
+                <img src="about me.png" alt="my personal website ">
+                <img src="coffe starpack.png" alt="build website like starbucks">
+                <img src="exam.png" alt="exam website">
+                <img src="form design.png" alt="form ">
+                <img src="form.png" alt="form">
+                <img src="slide img.png" alt=" slider imgs">
+                <img src="my sjillls.png" alt="my skills">
+                <img src="photo_2023-12-26_20-54-58.jpg" alt="to do list">
+            </div>
+        </div>
+    </div>
+    <!-- end gallery -->
+    <!-- start time line -->
+    <div class="timeline">
+        <div class="container">
+            <div class="timelinecontent">
+                <div class="year">2021</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Html </h3>
+                        <p>I was learning Html  And built several projects using HTML</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>css</h3>
+                        <p>I have learned Css And built several projects using HTML and css </p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="year">2022</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>javaScript</h3>
+                        <p>JavaScript is the world's most popular programming language
+                            for me. JavaScript is the programming language of the Web.
+                        JavaScript is easy to learn.</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>javascript</h3>
+                        <p>I have learned javascriptAnd built several projects using HTML and css javascript And I practice this language a lot</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="year">2023</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Bootstrap</h3>
+                        <p>Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites.</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Jquery</h3>
+                        <p>jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end time line -->
+    <!-- start featuers -->
+    <div class="features">
+        <h2>our featuers</h2>
+        <div class="container">
+        <div class="feat-box">
+            <img src="commmmm.jpg" alt="">
+            <h4>Communications</h4>
+            <P>Pretium lectus quam id leo in vitae turpis. Mattis pellentesque id nibh tortor id.</P>
+        </div>
+        <div class="feat-box">
+            <img src="comunications.jpg" alt="">
+            <h4>Inspired Design</h4>
+            <P>Nunc consequat interdum varius sit amet mattis vulputate enim nulla. Risus feugiat</P>
+        </div>
+        <div class="feat-box">
+            <img src="happy.jpg" alt="">
+            <h4>Happy Customers</h4>
+            <P>Nisl purus in mollis nunc sed id semper. Rhoncus aenean vel elit scelerisque mauris.</P>
+        </div>
+        <div class="clearfix"></div>
+        </div>
+    </div>
+
+    <!-- end featuers -->
+    <!-- start testi monials -->
+    <div class="testimonials">
+        <div class="container">
+            <h2>testimonials</h2>
+            <div class="ts-box">
+                <p>I am happy with the product its amazig and I recieve it very fast and the price was amazing.</p>
+                <div class="person-info">
+                    <img src="he.jpg" alt="">
+                    <h4>abdullah</h4>
+                    <p>ceo at company</p>
+                </div>
+            </div>
+            <div class="ts-box">
+                <p>I am happy with the product its amazig and I recieve it very fast and the price was amazing.</p>
+                <div class="person-info">
+                    <img src="me.jpg" alt="">
+                    <h4>mohamed</h4>
+                    <p>ceo at company</p>
+                </div>
+            </div>
+            <div class="ts-box">
+                <p>I am happy with the product its amazig and I recieve it very fast and the price was amazing.</p>
+                <div class="person-info">
+                    <img src="marram.jpg" alt="">
+                    <h4>jufer</h4>
+                    <p>ceo at company</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+    <!-- start fotter-->
+    <div class="footer">created with love By abdullah khaled</div>
+    <!-- end fotter-->
+    
+    
+    <!-- end testi monials -->
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="jquery-3.7.1.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
